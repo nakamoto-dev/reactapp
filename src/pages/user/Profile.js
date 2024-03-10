@@ -19,11 +19,11 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const referralLink = "http://192.168.88.106:8000";
+  const referralLink = "https://smartshop-tr.com.ng";
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://192.168.88.106:8000/api/users/user`, {
+        const response = await fetch(`https://smartshop-tr.com.ng/api/users/user`, {
           method: 'GET',
           headers: {
             'Accept': 'application/json',

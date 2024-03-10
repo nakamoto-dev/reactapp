@@ -43,7 +43,7 @@ const Register = () => {
         }
 
 
-      const response = await fetch(`http://192.168.88.106:8000/api/users/register`, {
+      const response = await fetch(`https://smartshop-tr.com.ng/api/users/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

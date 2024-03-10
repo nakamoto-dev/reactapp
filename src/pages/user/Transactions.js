@@ -15,7 +15,7 @@ const Transactions = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://192.168.88.106:8000/api/users/trxs`, {
+        const response = await fetch(`https://smartshop-tr.com.ng/api/users/trxs`, {
           method: 'GET',
           headers: {
             'Accept': 'application/json',

@@ -36,7 +36,7 @@ const Products = () => {
   // Function to fetch packages from the API
   const fetchPackages = async () => {
     try {
-      const response = await fetch('http://192.168.88.106:8000/api/users/packages'); // Replace with your actual API endpoint
+      const response = await fetch('https://smartshop-tr.com.ng/api/users/packages'); // Replace with your actual API endpoint
       const data = await response.json();
       console.log(data)
       setPackages(data.packages);
@@ -56,7 +56,7 @@ const Products = () => {
       // Your order logic here
       console.log(`Ordering package with ID: ${id}`);
       // Construct the URL with the order ID
-      const apiUrl = `http://192.168.88.106:8000/api/users/order?id=${id}`;
+      const apiUrl = `https://smartshop-tr.com.ng/api/users/order?id=${id}`;
   
       // Make the fetch request with async/await
       const response = await fetch(apiUrl, {

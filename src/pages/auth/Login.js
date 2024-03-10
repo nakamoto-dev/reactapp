@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch(`http://192.168.88.106:8000/api/users/login`, {
+      const response = await fetch(`https://smartshop-tr.com.ng/api/users/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

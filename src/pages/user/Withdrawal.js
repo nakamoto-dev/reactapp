@@ -40,7 +40,7 @@ const Deposit = () => {
   const fetchUserData = async () => {
 
     try {
-      const response = await fetch(`http://192.168.88.106:8000/api/users/user`, {
+      const response = await fetch(`https://smartshop-tr.com.ng/api/users/user`, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
@@ -76,7 +76,7 @@ const Deposit = () => {
     }
 
     // Your API endpoint
-    const apiUrl = `http://192.168.88.106:8000/api/users/cashout?amt=${formData.amount}&ph=${formData.phone}&&id=${trackingId}`;
+    const apiUrl = `https://smartshop-tr.com.ng/api/users/cashout?amt=${formData.amount}&ph=${formData.phone}&&id=${trackingId}`;
 
     // Your API key
     const apiKey = 'f3155f2ddee430ca687172798611b7d8';
