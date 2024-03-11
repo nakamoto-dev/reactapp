@@ -5,7 +5,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AuthProvider } from './AuthContext';
-import 'flowbite';
 
 
 if ('serviceWorker' in navigator) {
